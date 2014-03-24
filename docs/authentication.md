@@ -69,7 +69,7 @@ return array(
 
 #### Creating the AuthenticationService
 
-Now that we have configured the authentication, we need still need to tell Zend Framework how to construct a correct ``Zend\Authentication\AuthenticationService`` instance. For this, add the following code in your Module.php class:
+Now that we have configured the authentication, we still need to tell Zend Framework how to construct a correct ``Zend\Authentication\AuthenticationService`` instance. For this, add the following code in your Module.php class:
 
 ```php
 namespace Application;
